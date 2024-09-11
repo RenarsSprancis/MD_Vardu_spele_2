@@ -1,0 +1,32 @@
+vards=input("Ievadi savu vārdu nominatīvā locijumā (Kas?):")
+
+vards=vards.lower()
+# funkcija  .lower() - konvertē simbolus par mazajiem burtiem.
+
+vards=vards.capitalize()
+# funkcija  .capitalize() - Simbolu virknē pirmo būrtu konvertē par lielo
+print(vards)
+
+Uzminivardu="pingvīns"
+
+burtuSkaits=len(Uzminivardu)
+
+# funkcija len() - skaita  simbolu virknē  simbolu skaitu. 
+
+#print(burtuSkaits)
+# pingvīns
+minejums=input(f"{Uzminivardu[0]} _ {Uzminivardu[2]}{Uzminivardu[3]} _ _ _ {Uzminivardu[7]} , ievadi vārdu: ")
+# metodi mainigais[3] - norāda simbolu kurš atrodās simbolu virknē, simbolu virkne sākās ar indeksu -0
+
+minejums=minejums.lower()
+
+
+if Uzminivardu==minejums:
+    print("Pareizi!")
+else:
+    print("Nepareizi!")
+
+# Uzdevums- papildini spēles kodu:
+# 1. Šajā spēlē, jēgpilni, izmantot  spēlētāja vārdu izvadē.
+# 2. Spēlē izmantojat vairākus minamos vārdus.
+# 3. Izveidot spēles kodā ciklu.
